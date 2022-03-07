@@ -1,5 +1,7 @@
 # swift_decimal_to_base
 
+Converts a decimal to any base lower than 10
+
 ```
 var digits = [0]
 var base = 2
