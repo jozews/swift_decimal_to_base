@@ -1,12 +1,14 @@
 # swift_decimal_to_base
 
-Converts a decimal to any base lower than 10
+Count to N in any base lower than 10
 
 ```
-var digits = [0]
-var base = 2
+let N = 100
+let base = 2
 
-for decimal in 1..<100 {
+var digits = [0]
+
+for decimal in 1..<N {
 
     for index in (0..<digits.count).reversed() {
         if digits[index] + 1 < base {
